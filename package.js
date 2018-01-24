@@ -10,5 +10,5 @@ Package.describe({
 Package.onUse(function(api) {
 	api.versionsFrom('1.4')
 	api.use('ui', 'client')
-    api.addFiles(['chartist.js', 'chartist.css', 'chartist-plugin-axistitle.js'], 'client')
+    api.addFiles(['chartist.js', 'chartist.css'], 'client')
 });
